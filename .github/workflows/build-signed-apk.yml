@@ -22,7 +22,7 @@ jobs:
 
       - name: Build APK
         run: |
-          flutter pub get
+          flutter pub upgrade
           flutter build apk --release
 
       - name: Upload APK Artifact
